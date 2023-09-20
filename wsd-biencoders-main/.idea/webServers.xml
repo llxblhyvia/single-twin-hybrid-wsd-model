@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c2e55b0b-8796-4254-a579-ae6400659da6" name="hanyue">
+        <fileTransfer rootFolder="/home/hy" accessType="SFTP" host="202.121.138.194" port="22" sshConfigId="f67a6df2-34ae-47db-8721-cef0bbfc36bf" sshConfig="hy@202.121.138.194">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
