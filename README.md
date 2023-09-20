@@ -54,7 +54,7 @@ with `$wsd_eval_set` the name of [evaluation datasets].
 `xxx.py` is the training python file you choose this time.
 
 ### Notice: Running Time
-Because of the use of Transformer blocks, the model training process will take several days according to your GPU for 20 epochs, so please use tools like tmux to keep the connection constantly.
+Because of the use of **Transformer** blocks, the model training process will take several **days** according to your GPU for 20 epochs, so please use tools like **tmux** to keep the connection constantly.
 
 
 
