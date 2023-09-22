@@ -1,5 +1,7 @@
 # WSD Model Based on Single-Twin Hybrid Tower Structure
-
+> Undergraduate Graduation Project.
+> 
+> Completed independently by **Yue Han** under the guidance of Prof. Yun Chen, from 2021.11 to 2022.4.
 ## Introduction
 
 This model solve the problem that there is no interaction between context and gloss in the traditional twin-tower model for the **Word Sense Disambiguation  (WSD)** task, proposing a **single-twin-tower hybrid model**. Inspired by [ALBEF](https://arxiv.org/abs/2107.07651) , I concatenates the context and gloss together and input them into the Transformer encoders, so that the newly obtained context and gloss representations have learnt the **interaction** between each other. And then I use the original loss function to update the gradient; at the same time, I use two loss settings, one using the output of single tower to calculate the loss, and the other using the outputs of the single tower and twin tower together to calculate the Loss. Finally, the f1 score of the hybrid model using both outputs of single and dual towers reaches **78.2** on the [**Sensevel2**](http://lcl.uniroma1.it/wsdeval/evaluation-data) dataset, which is 0.4% higher than SOTA--[wsd-biencoders](https://github.com/facebookresearch/wsd-biencoders).
